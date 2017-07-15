@@ -67,25 +67,13 @@
     </header>
     <!-- //Header End -->
     <!--Carousel Start -->
-
-        <div class="col-md-10 col-md-offset-1">
-    <div id="owl-demo" class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/image1.png" style="width: 100%;" alt="slider-image">
-            </div>
-            <div class="item"><img src="/images/image2.jpg" style="width: 100%;" alt="slider-image">
-            </div>
-            <div class="item"><img src="/images/image3.jpg" style="width: 100%;" alt="slider-image">
-            </div>
-    </div>
-
-        </div>
-    <!-- //Carousel End -->
+    @yield("carousel")
     <!-- Container Start -->
     <!-- //Carousel End -->
     <!-- Container Start -->
     <div class="container">
         <!-- Service Section Start-->
-        
+        @yield("content")
         <!-- //Our Skills End -->
     </div>
     <!-- //Container End -->
